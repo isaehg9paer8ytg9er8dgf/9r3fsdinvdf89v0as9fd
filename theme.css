@@ -1,0 +1,10 @@
+* {
+    --btn-padding-x: 20px;
+    --btn-padding-y: 10px;
+    --active: #83e3d7;
+    --selected: #54a8da;
+    --focus: blue;
+    --size: 16px;
+    --font: Roboto;
+    --fontheader: "Playfair Display", Roboto;
+}

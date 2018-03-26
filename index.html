@@ -1,0 +1,52 @@
+<!DocType Html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Newsletter Submission Form</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="inline.css">
+        <link rel="stylesheet" href="theme.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>        
+    </head>
+    <body>
+        <div class="page-content">
+            <div class="header">Newsletter Submission Form</div>
+            <div class="space-20"></div>
+            <div class="size-20">What would you like to submit?</div>
+            <div class="space-20"></div>
+            <div class="btn-routes">
+                <button class="btn-route" id="btn-route-story">A Story</button>
+                <button class="btn-route" id="btn-route-photo">A Photo</button>
+                <button class="btn-route" id="btn-route-headline">A One-liner</button>
+            </div>
+            <div class="space-20"></div>
+            <div class="form-routes">
+                <div class="form-route" id="form-route-story">
+                    <div>
+                        What category does it belong to?
+                        <button class="category">hi</button>
+                        <button class="category">hello</button>
+                    </div>
+                    <div class="space-10"></div>
+                    <div class="form-content">
+                        <div class="float-right">
+                            Email: <input type=text>
+                            <div class="space-10"></div>
+                            Additional Comments: <input type=text>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-route" id="form-route-photo">Photo stuff</div>
+                <div class="form-route" id="form-route-headline">Headline stuff</div>
+                
+                <div class="space-20"></div>
+                <button id="submit-route" hidden>Submit</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
